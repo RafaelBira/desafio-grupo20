@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Entre em contato | Central de notícias</title>
+<link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+<div>
+<header>
+<h1> Notícias COVID-19 </h1>
+</header>
+</div>
+<div class="menu">
+<ul>
+<a href="index.html">Home</a>
+<a href="sobre.html">Sobre nós</a>
+<a href="contato.html">Entre em contato</a>
+<a href="saiba-mais.html">Saiba mais</a>
+</ul>
+</div>
+<div>
+  <h2>Entre em contato</h2>
+                <form id="contato" method="post">
+<div>
+<label>Nome completo<input type="text" id="nome_id" name="nome" required autofocus></label>
+</div>
+<div>
+<label>E-Mail<input type="text" id="email_id" name="email" required></label>
+</div>
+<div>
+<label>Assunto<input type="text" id="assunto_id" name="assunto" required></label>
+</div>
+<div>
+<label>Sua mensagem<textarea id="mensagem_id" name="mensagem rows="4" cols="25" required></textarea></label>
+</div>
+<button onclick="enviar_dados();" name="enviar" value="Enviar">Enviar</button>
+                </form>
+</div>
+<script>
+function enviar_dados(){
+if(contato.nome.value!="") alert("Sua mensagem foi enviada, "+contato.nome.value+". Retornaremos sua mensagem, fique de olho no seu E-Mail!");
+}
+</script>
+<hr>
+<footer>
+  <p style="text-align:center;">Página desenvolvida pelos alunos da turma 5 do programa Formação Tech, realizado pela <a href="https://gama.academy" target="_blank">Gama Academy</a></p>
+  <p style="text-align:center;">© GRUPO 20 - FORMAÇÃO TECH 2021</P>
+</footer>
+</body>
+</html>
+

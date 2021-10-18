@@ -1,0 +1,48 @@
+body { background-color: rgba(235, 99, 36, 0.952);
+
+}
+
+div {
+	font-family: Arial;
+	font-size: 12pt;
+width: 760px;
+margin-left: auto;			
+margin-right: auto;			
+padding: 10px;
+}
+footer {
+font-family: Arial;
+/*background-color: darkred;*/
+background-color: rgb(32, 139, 0);
+color: #FFF;
+width: 100%;
+height: 100px;    
+text-align: center;
+line-height: 100px;
+  }
+.menu{
+	font-size: 12pt;
+width: 960px;
+margin-left: auto;			
+margin-right: auto;			
+padding: 10px;
+}
+p {
+margin-left: auto;			
+margin-right: auto;			
+text-align: left }
+}
+.conteudo{
+	font-size: 12pt;
+width: 800px;
+margin-left: auto;			
+margin-right: auto;
+padding: 10px;
+color:gray;
+}
+hr{
+width: 760px;
+margin-left: auto;			
+margin-right: auto;	
+text-align: center	
+}
